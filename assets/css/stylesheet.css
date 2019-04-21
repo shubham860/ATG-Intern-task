@@ -12,12 +12,12 @@ body {
 
 #contain{
     width: 560px;
-    height: 590px;
+    height: 620px;
     background-color: #FFFFFF;
     box-shadow: 0px 8px 50px rgba(0, 0, 0, 0.12);
     border-radius: 8px;
     margin-top:20px;
-    ;
+
 }
 
 #left-arrow{
@@ -80,12 +80,175 @@ border-radius: 8px 8px 0px 0px;
 }
 
 .three{
-  position: absolute;
   width: 505px;
-  height: 292px;
-  left: 509px;
+  height: 315px;
+  margin-left: 28px;
+  margin-top: -5px;
   background: #FFFFFF;
   border: 1px solid #EBEBEB;
   box-sizing: border-box;
   border-radius: 7px;
+}
+
+
+.label1{
+  font-size: 15px !important;
+  line-height: normal;
+  color: black;
+  font-weight: normal !important;
+  line-height: normal;
+  margin-left: 23px;
+  padding-top: 23px !important;
+}
+
+
+#input1{
+      width: 270px;
+      height: 45px;
+      left: 416px;
+      top: 359px;
+      background: #f2f2f2;
+      text-decoration: none;
+      border: 0px solid;
+      border-radius: 8px;
+      outline: 0;
+      margin-left: 23px;
+      margin-top: -4px !important;
+      padding:18px;
+      font-weight: 600;
+      font-size: 13px;
+}
+
+
+
+.label2{
+  font-size: 15px !important;
+  line-height: normal;
+  color: black;
+  font-weight: normal !important;
+  line-height: normal;
+  margin-left: 23px;
+  padding-top: 15px !important;
+}
+
+#input2{
+      width: 400px;
+      height: 58px;
+      left: 416px;
+      top: 359px;
+      background: #f2f2f2;
+      text-decoration: none;
+      border: 0px solid;
+      border-radius: 8px;
+      outline: 0;
+      margin-left: 23px;
+      margin-top: -2px !important;
+      padding-left:18px;
+      padding-top:-15px;
+      font-weight: 600;
+      font-size: 13px;
+}
+
+.label3{
+  font-size: 15px !important;
+  line-height: normal;
+  color: black;
+  font-weight: normal !important;
+  line-height: normal;
+  margin-left: 23px;
+  padding-top: 15px !important;
+}
+
+input::placeholder {
+   color: #333333;
+}
+
+#input3{
+      width: 184px;
+      height: 45px;
+      left: 416px;
+      top: 359px;
+      background: #f2f2f2;
+      text-decoration: none;
+      border: 0px solid;
+      border-radius: 8px;
+      outline: 0;
+      margin-left: 60px;
+      margin-top: -5px !important;
+      padding:18px;
+      font-weight: 600;
+      font-size: 13px;
+}
+
+#rupee{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 530px;
+    top: 461px;
+    background:#e6e6e6;
+    border: 0px solid;
+    border-radius: 8px 0px 0px 8px;
+
+}
+
+#size{
+  font-size: 13px;
+  margin-left: -8px;
+  margin-top: -5px !important;
+}
+
+#align{
+  position: absolute;
+  margin-top: 3px;
+}
+
+#col-fo{
+  position: absolute;
+  width:  561px;
+  height: 75px;
+  left: 480px;
+  top: 615px;
+  background: #ffffff;
+  border-radius: 0px 0px 8px 8px;
+  border: 1px solid #EBEBEB;
+  }
+
+
+  #heads{
+    position: absolute;
+    font-weight: 800;
+    font-size: 15px;
+    top: 25px;
+    left: 30px
+  }
+#sizes{
+  font-size: 14px  !important;
+}
+
+.btns{
+  position: absolute;
+  margin-left: 442px;
+  margin-top: 2px;
+  width: 90px;
+  height: 37px;
+  background: #16B867;
+  border: 1px solid #16B867;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color:white;
+}
+
+#bolds{
+  position: absolute;
+  margin-top: -10px;
+  margin-left: -25px;
+  color:white;
+  font-style: bold;
+  font-size: 14px;
+}
+
+#emoji{
+  font-size: 9px !important;
+  margin-top: -4px;
 }
