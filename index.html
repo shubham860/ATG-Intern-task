@@ -14,7 +14,7 @@
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
           <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
           <link rel="icon" href="assets/images/logo.png" type="image/gif" sizes="16x16">
-          <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
           <link rel="stylesheet" href="assets/css/stylesheet.css">
 
           <!-- Icons -->
@@ -22,244 +22,32 @@
           <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 
 
-
 </head>
   <body>
 
-      <!-- Main container -->
-      <div class="container">
 
-        <!-- info,searchbar container -->
-          <div class="container">
-            <div class="row">
-
-             <!-- FOR NAME -->
-              <div class="col-md-12">
-                  <div class="name">
-                    <h2 class="head">Hey, Saurabh! <i class="em em-grinning" id="emoji"></i></h2>
-                  </div>
-
-             <!-- FOR PLETHORA -->
-                  <div class="infodiv">
-                    <p class="info">We have plethora of groups for you to follow and explore your interests & interact with others.</p>
-                  </div>
-              </div>
-
-              <!-- FOR SEARCHBAR -->
-              <div class="col-md-12">
-                <div class="se">
-                  <div class="search-container">
-                    <form>
-                      <button type="submit"><i class="fa fa-search" style="color:#8c8c8c;"></i></button>
-                      <input type="text" placeholder="Search" name="search">
-                    </form>
+         <div class="jumbotron" style="background-color:#E5E5E5 !important;">
+             <div class="container" id="contain">
+               <div class="row">
+                  <div class="col-xs-12  col-bo">
+                     <span><ion-icon ios="ios-arrow-round-back" md="md-arrow-round-back" id="left-arrow"></ion-icon></span>
+                     <span><p id="head">Multiple Ticket</p></span>
+                     <span><button type="button" class="btn"><ion-icon name="add" id="add"></ion-icon><b id="bold">    Category</b></button></span>
                   </div>
                 </div>
-              </div>
-
-            </div>
-          </div>
-      <!-- info,searchbar container ends -->
 
 
-    <!-- FOR TRENDING GROUPS -->
-      <div class="container">
-        <div class="row">
+                <div class="row">
+                  <p class="one"><b>1.</b></p>
+                </div>
 
-         <div class="name">
-           <h4 class="heade"><i>Trending groups</i></h4>
+                <div class="row">
+                  <div class="three">
+                    
+                  </div>
+                </div>
+             </div>
          </div>
-
-         <div class="images row" >
-            <table>
-              <tr>
-
-                <td>
-                  <div class="img1">
-                     <ion-icon name="checkmark-circle" class=" marker hidden"></ion-icon>
-                    <img src="assets/images/cs.jpg"  class="img-circle myimg " onclick="tab();" alt="Cinque Terre"  >
-                    <p class="heads">Computer Engineering</p>
-                  </div>
-                </td>
-
-                <td>
-                  <div class="img1">
-                    <ion-icon name="checkmark-circle" class=" marker hidden"></ion-icon>
-                    <img src="assets/images/elect.jpg" class="img-circle myimg " onclick="tab();" alt="Cinque Terre" >
-                    <p class="heads">Electronics Engineering</p>
-                  </div>
-                </td>
-
-                <td>
-                  <div class="img1">
-                    <ion-icon name="checkmark-circle" class=" marker hidden"></ion-icon>
-                    <img src="assets/images/mech.jpg" class="img-circle myimg " onclick="tab();" alt="Cinque Terre" >
-                     <p class="heads">Mechnical Engineering</p>
-                  </div>
-                </td>
-
-                <td>
-                  <div class="img1">
-                    <ion-icon name="checkmark-circle" class="marker hidden"></ion-icon>
-                    <img src="assets/images/cs.jpg"  class="img-circle myimg " onclick="tab();" alt="Cinque Terre"  >
-                    <p class="heads">Computer Engineering</p>
-                  </div>
-                </td>
-
-                <td>
-                  <div class="img1">
-                    <ion-icon name="checkmark-circle" class="marker hidden"></ion-icon>
-                    <img src="assets/images/elect.jpg" class="img-circle myimg " onclick="tab();" alt="Cinque Terre" >
-                    <p class="heads">Electronics Engineering</p>
-                  </div>
-                </td>
-
-                <td>
-                  <div class="img1">
-                    <ion-icon name="checkmark-circle" class="marker hidden"></ion-icon>
-                    <img src="assets/images/mech.jpg" class="img-circle myimg " onclick="tab();" alt="Cinque Terre" >
-                     <p class="heads">Mechnical Engineering</p>
-                  </div>
-                </td>
-
-                <td>
-                  <div class="img1">
-                    <ion-icon name="checkmark-circle" class="marker hidden"></ion-icon>
-                    <img src="assets/images/cs.jpg"  class="img-circle myimg " onclick="tab();" alt="Cinque Terre"  >
-                    <p class="heads">Computer Engineering</p>
-                  </div>
-                </td>
-
-              </tr>
-              
-            </table>
-         </div>
-
-      </div>
-    </div>
-    <!-- FOR TRENDING GROUPS ENDS -->
-
-
-
-    <!-- FOR ALL GROUPS -->
-      <div class="container groups">
-        <div class="row">
-
-         <div class="name">
-           <h4 class="headss"><i>All groups on ATG</i></h4>
-         </div>
-
-         <div class="all">
-            <div class="row one">
-
-              <div class="col-xs-4">
-                <div>
-                  <div class="icon"><ion-icon name="checkmark-circle" class="markers hidden"></ion-icon></div>
-                  <div class="center">
-                    <img src="assets/images/cs.jpg"  class="img-circle myimgs " onclick="tab();" alt="Cinque Terre"  >
-                  </div>
-                  <p class="headi">Computer Engineering</p>
-                </div>
-              </div>
-
-              <div class="col-xs-4">
-                <div>
-                  <div class="icon"><ion-icon name="checkmark-circle" class="markers hidden"></ion-icon></div>
-                <div class="center">
-                  <img src="assets/images/elect.jpg" class="img-circle myimgs" onclick="tab();" alt="Cinque Terre" >
-                </div>
-                  <p class="headi">Electronics Engineering</p>
-                </div>
-              </div>
-
-              <div class="col-xs-4">
-                <div>
-                  <div class="icon"><ion-icon name="checkmark-circle" class="markers hidden"></ion-icon></div>
-                  <div class="center">
-                    <img src="assets/images/mech.jpg" class="img-circle myimgs" onclick="tab();" alt="Cinque Terre" >
-                  </div>
-                  <p class="headi">Mechnical Engineering</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="row two">
-
-              <div class="col-xs-4">
-                <div>
-                  <div class="icon"><ion-icon name="checkmark-circle" class="markers hidden"></ion-icon></div>
-                  <div class="center">
-                    <img src="assets/images/cs.jpg"  class="img-circle myimgs" onclick="tab();" alt="Cinque Terre"  >
-                  </div>
-                  <p class="headi">Computer Engineering</p>
-                </div>
-              </div>
-
-              <div class="col-xs-4">
-                <div>
-                  <div class="icon"><ion-icon name="checkmark-circle" class="markers hidden"></ion-icon></div>
-                  <div class="center">
-                    <img src="assets/images/elect.jpg" class="img-circle myimgs" onclick="tab();" alt="Cinque Terre" >
-                  </div>
-                  <p class="headi">Electronics Engineering</p>
-                </div>
-              </div>
-
-              <div class="col-xs-4">
-                <div>
-                  <div class="icon"><ion-icon name="checkmark-circle" class="markers hidden"></ion-icon></div>
-                  <div class="center">
-                    <img src="assets/images/mech.jpg" class="img-circle myimgs" onclick="tab();" alt="Cinque Terre" >
-                  </div>
-                   <p class="headi">Mechnical Engineering</p>
-                </div>
-              </div>
-
-            </div>
-
-            <div class="row three">
-
-              <div class="col-xs-4">
-                <div>
-                  <div class="icon"><ion-icon name="checkmark-circle" class="markers hidden"></ion-icon></div>
-                  <div class="center">
-                    <img src="assets/images/cs.jpg"  class="img-circle myimgs" onclick="tab();" alt="Cinque Terre"  >
-                  </div>
-                  <p class="headi">Computer Engineering</p>
-                </div>
-              </div>
-
-              <div class="col-xs-4">
-                <div>
-                  <div class="icon"><ion-icon name="checkmark-circle" class="markers hidden"></ion-icon></div>
-                  <div class="center">
-                    <img src="assets/images/elect.jpg" class="img-circle myimgs" onclick="tab();" alt="Cinque Terre" >
-                  </div>
-                  <p class="headi">Electronics Engineering</p>
-                </div>
-              </div>
-
-              <div class="col-xs-4">
-                <div>
-                  <div class="icon"><ion-icon name="checkmark-circle" class="markers hidden"></ion-icon></div>
-                  <div class="center">
-                    <img src="assets/images/mech.jpg" class="img-circle myimgs" onclick="tab();" alt="Cinque Terre" >
-                  </div>
-                   <p class="headi">Mechnical Engineering</p>
-                </div>
-              </div>
-
-            </div>
-
-         </div>
-
-      </div>
-    </div>
-    <!-- FOR ALL GROUPS ENDS -->
-
-      </div>
-      <!-- MAIN CONTAINER ENDS -->
-
 
 
 
@@ -269,13 +57,14 @@
          <!-- Bootstrap CSS -->
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-         <!-- Icons -->
-         <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
          <!--main js file-->
-          <script type="text/javascript" src="assets/js/script.js"></script>
-          <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+         <script type="text/javascript" src="assets/js/script.js"></script>
+         <!-- Icons -->
+         <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+
+
 
   </body>
   </html>
