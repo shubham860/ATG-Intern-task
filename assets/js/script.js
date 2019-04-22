@@ -1,16 +1,3 @@
-// border for trending row
-$('.myimg').click(function(){
- $(this).toggleClass("border");
- $(this).prev().toggleClass("hidden");
-});
-
-// border for all groups row
-$('.myimgs').click(function(){
-  $(this).toggleClass("border");
-  $(this).parent().siblings(".icon").children().toggleClass("hidden");
-});
-
-
 //Script courtesy
 var message="NoRightClicking";
 function defeatIE() {if (document.all) {(message);return false;}}
