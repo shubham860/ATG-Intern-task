@@ -9,6 +9,8 @@ body {
     background-color: #E5E5E5;
     line-height: 1.42857143;
   }
+
+
 @media(min-width:600px){
 #contain{
     width: 560px;
